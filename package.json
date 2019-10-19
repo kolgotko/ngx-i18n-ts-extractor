@@ -1,0 +1,28 @@
+{
+  "name": "@kolgotko/ngx-i18n-ts-extractor",
+  "version": "1.0.0",
+  "main": "extractor/index.js",
+  "author": "I.Bykov <con29rus@live.ru>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "tsc"
+  },
+  "files": [
+    "builders.json",
+    "extractor/index.js",
+    "extractor/schema.json"
+  ],
+  "builders": "builders.json",
+  "devDependencies": {
+    "@angular-devkit/architect": "^0.803.12",
+    "@angular-devkit/core": "^8.3.12",
+    "@kolgotko/ngx-i18n-ts-common": "https://github.com/kolgotko/ngx-i18n-ts-common",
+    "@types/glob": "^7.1.1",
+    "@types/node": "^12.11.1",
+    "@types/xml-js": "^1.0.0",
+    "glob": "^7.1.4",
+    "typescript": "^3.6.4",
+    "xml-js": "^1.6.11"
+  }
+}

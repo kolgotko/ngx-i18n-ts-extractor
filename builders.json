@@ -1,0 +1,9 @@
+{
+  "builders": {
+    "extractor": {
+      "implementation": "./extractor",
+      "schema": "./extractor/schema.json",
+      "description": "Extracting i18n tagged expressions."
+    }
+  }
+}

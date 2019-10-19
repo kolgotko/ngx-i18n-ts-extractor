@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "type": "object",
+  "properties": {
+    "projectDir": {
+      "type": "string"
+    },
+    "outputDir": {
+      "type": "string"
+    },
+    "sourceLang": {
+      "type": "string"
+    },
+    "ignore": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

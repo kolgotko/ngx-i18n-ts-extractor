@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es6",
+    "noImplicitAny": false,
+    "stripInternal": true,
+    "skipLibCheck": true
+  },
+  "files": [
+    "./extractor/index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
