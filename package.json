@@ -14,7 +14,7 @@
     "extractor/schema.json"
   ],
   "builders": "builders.json",
-  "devDependencies": {
+  "dependencies": {
     "@angular-devkit/architect": "^0.803.12",
     "@angular-devkit/core": "^8.3.12",
     "@kolgotko/ngx-i18n-ts-common": "https://github.com/kolgotko/ngx-i18n-ts-common",
